@@ -1,0 +1,16 @@
+.skills-section{margin-top: 10%;}
+.resume-section{margin-top: 3%;}
+.col-title,.single-skill,.section-title{
+    color: white;
+    padding-bottom: 5%;
+}
+.item-details,.item-description{color: silver;}
+.item-description{padding-top: 2%;}
+.resume-section .resume-item {
+    background-color: #161616;
+    border-left: 2px solid transparent;
+    padding: 32px 48px;
+    position: relative;
+    border-left:  2px solid #009e66;
+    border-bottom: 1px solid #313131;
+}

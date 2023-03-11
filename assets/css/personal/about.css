@@ -1,0 +1,62 @@
+main{
+    background-image: none;
+    background-color: black !important;
+    height: auto !important;
+}
+.content-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    padding: 8% 0;
+}
+.heading,.section-heading{text-align: center;}
+.heading>p,.content-description,hr,.content-info,.section-description,.service-description{color: silver;}
+h1{color: white;}
+center>img{width: 320px;}
+.content-subtitle,h3{color: #009e66;}
+.content-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: white;
+}
+p>a{
+    text-decoration: none;
+    color: #009e66;
+}
+p>a:hover{
+    color: lightgreen;
+}
+.btn{
+    background-color: #009e66;
+    border-radius: 50px;
+    color: white;
+    width: 150px;
+}
+.btn:hover{
+    background-color: #009e66;
+    color: lightgreen;
+}
+.service{
+    margin-top: 10%;
+}
+.service-details{margin-top: 3%;}
+.single-service{
+    background-color: #161616;
+    border-bottom: 2px solid transparent;
+    box-shadow: 0 6px 16px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    padding: 38px 42px;
+}
+.single-service:hover{
+    border-bottom: 2px solid #009e66;
+}
+@media screen and (min-width: 280px) and (max-width: 990px){
+    center>img{
+        width: 280px;
+        border-radius: 500px;
+    }
+    h3{
+        font-size: 16px;
+    }
+}

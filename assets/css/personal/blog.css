@@ -1,0 +1,13 @@
+.section-title{margin-bottom: 5%;}
+.card{
+    background-color: black;
+    margin-bottom: 5%;
+}
+.card:hover{border-bottom: 2px solid #009e66;}
+a{text-decoration: none;} 
+.card-title{color: #009e66;}
+@media only screen and (min-width: 240px) and (max-width: 991px) {
+    .single-section>.row {
+        justify-content: center !important;
+      }
+  }

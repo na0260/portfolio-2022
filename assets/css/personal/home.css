@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+main {
+    background-image: url("../../images/1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    padding: 1% 10%;
+    font-weight:bold
+}
+.navbar a{
+    color: silver;
+}
+.navbar a:hover{
+    color: grey;
+}
+.navbar-brand {
+    font-size: x-large;
+    animation: shine 20s infinite linear;
+    background: linear-gradient(to right, hsl(0, 0%, 100%) 0, hsl(0, 0%, 0%) 10%, hsl(0, 9%, 77%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    50% {
+        background-position: 600px;
+    }
+    100% {
+        background-position: 600px;
+    }
+}
+.active{
+    background-color: grey;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 70px !important;
+}
+h4 {
+    font-size: 36px !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: animtext 3s infinite;
+}
+@keyframes animtext {
+    from {
+        width: 0%;
+        transition: all 5s ease-in-out;
+    }
+}
+footer{color: silver;}
+footer a{text-decoration: none;}
+@media screen and (min-width: 280px) and (max-width: 990px) {
+    h1 {
+        font-size: 48px !important;
+    }
+
+    h4 {
+        font-size: 26px !important;
+    }
+}
+
